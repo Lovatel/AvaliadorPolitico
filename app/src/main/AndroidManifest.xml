@@ -16,10 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.ChangePasswordActivity"/>
-        <activity android:name=".activities.ForgotPasswordActivity"/>
-        <activity android:name=".activities.LoginActivity"/>
-        <activity android:name=".activities.UserRegisterActivity"/>
+        <activity android:name=".activities.ChangePasswordActivity" />
+        <activity android:name=".activities.ForgotPasswordActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.UserRegisterActivity" />
+        <activity android:name=".activities.CreatePublicPetitionActivity" />
+        <activity android:name=".activities.DatabaseActivity" />
+        <activity android:name=".activities.FeedActivity" />
+        <activity android:name=".activities.PoliticalProfileActivity" />
+        <activity android:name=".activities.PoliticalPromisesActivity" />
+        <activity android:name=".activities.PoliticalRankingActivity" />
+        <activity android:name=".activities.PoliticianAccompaniedActivity" />
+        <activity android:name=".activities.VotePredictionActivity" />
+        <activity android:name=".activities.SchedulerActivity" />
     </application>
 
 </manifest>

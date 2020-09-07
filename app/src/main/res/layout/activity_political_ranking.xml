@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.PoliticalRankingActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/activity_political_ranking_menu_lateral_image_view"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:adjustViewBounds="true"
+            android:maxWidth="50dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/menu" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/political_ranking"
+                    android:textAlignment="center"
+                    android:textStyle="italic|bold"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorGreenText"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/activity_political_ranking_lateral_bell_image_view"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/bell"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="20dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="30dp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/activity_political_ranking_like_image_view"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="20dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/like"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginStart="20dp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/activity_political_ranking_promise_image_view"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="20dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/respeito"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginStart="40dp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/activity_political_ranking_vertical_list_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/activity_political_ranking_horizontal_list_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:src="@drawable/profile"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="20dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginHorizontal="10dp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic|bold"
+                    app:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorGreenText"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:text="@string/politician_name"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginHorizontal="10dp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic|bold"
+                    app:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorGreenText"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:text="@string/_1"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginHorizontal="10dp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textStyle="italic|bold"
+                    app:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorGreenText"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:text="@string/_1"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginHorizontal="10dp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </ScrollView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

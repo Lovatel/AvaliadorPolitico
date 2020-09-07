@@ -32,4 +32,7 @@
     <string name="please_inform_username">Por favor, informe o nome do usuário na tela atual.</string>
     <string name="please_inform_email_or_cpf">Por favor, informe o seu email or cpf antes.</string>
     <string name="please_inform_email_or_cpf_invalid_message">Email ou Cpf inválido! Por favor, informe novamente o valor e tente novamente.</string>
+    <string name="political_ranking">Ranking de Políticos</string>
+    <string name="_1">1</string>
+    <string name="politician_name">Nome do Político</string>
 </resources>
