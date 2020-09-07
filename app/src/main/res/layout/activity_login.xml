@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/activity_login_brasilia_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxHeight="280dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/senado"
+        app:layout_constraintBottom_toTopOf="@id/activity_login_app_name_text_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" 
+        android:layout_marginBottom="25dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/activity_login_app_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/app_name2_no_break"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@id/activity_login_linear_layout_options"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_login_brasilia_image_view"
+        android:layout_marginBottom="15dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/activity_login_linear_layout_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/activity_login_brasil_image_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_login_app_name_text_view"
+        android:layout_marginTop="10dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="0.4"
+                android:text="@string/user"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/activity_login_user_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/button_rect"
+                android:inputType="textEmailAddress"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="0.4"
+                android:text="@string/password"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/activity_login_password_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/button_rect"
+                android:inputType="textWebPassword"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/activity_login_register_text_view_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/register"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorCustom1"
+                android:textStyle="italic|bold"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/activity_login_forgot_password_text_view_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/forgot_password"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorCustom1"
+                android:textStyle="italic|bold"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/activity_login_enter_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_rounded"
+                android:text="@string/enter"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/activity_login_cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_rounded"
+                android:text="@string/cancel"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/activity_login_access_with_google_layout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/line_rounded"
+            android:clickable="true"
+            android:focusable="true">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:maxHeight="25dp"
+                android:scaleType="fitCenter"
+                android:paddingVertical="3dp"
+                android:src="@drawable/google_icon" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/access_with_google"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/activity_login_brasil_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_login_linear_layout_options"
+        android:src="@drawable/bandeira_brasil"
+        android:adjustViewBounds="true"
+        android:maxHeight="240dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="30dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

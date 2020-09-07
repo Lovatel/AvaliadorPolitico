@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.UserRegisterActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/activity_user_register_brasilia_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxHeight="280dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/senado"
+        app:layout_constraintBottom_toTopOf="@id/activity_user_register_user_register_text_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="25dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/activity_user_register_user_register_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/user_register"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@id/activity_user_register_linear_layout_options"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_user_register_brasilia_image_view"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/activity_user_register_linear_layout_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/activity_user_register_brasil_image_view"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_user_register_user_register_text_view">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="0.4"
+                android:text="@string/name"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/activity_user_register_name_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/button_rect"
+                android:inputType="textPersonName"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="0.4"
+                android:text="@string/last_name"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/activity_user_register_last_name_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/button_rect"
+                android:inputType="textPersonName"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="0.4"
+                android:text="@string/cpf"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/activity_user_register_cpf_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/button_rect"
+                android:inputType="numberDecimal"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="0.4"
+                android:text="@string/email"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/activity_user_register_email_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/button_rect"
+                android:inputType="textEmailAddress"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="0.4"
+                android:text="@string/password_no_dot"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/activity_user_register_password_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/button_rect"
+                android:inputType="textEmailAddress"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:text="@string/politician_profile"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp"
+                android:layout_marginStart="15dp"
+                android:textStyle="italic|bold" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/activity_user_register_politician_profile_check_box"
+                style="@style/custom_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:background="@drawable/button_rounded"
+                android:textAlignment="center" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/activity_user_register_register_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_rounded"
+                android:text="@string/register2"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/activity_user_register_cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_rounded"
+                android:text="@string/cancel"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenText"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/activity_user_register_brasil_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_user_register_linear_layout_options"
+        android:src="@drawable/bandeira_brasil"
+        android:adjustViewBounds="true"
+        android:maxHeight="232dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="25dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

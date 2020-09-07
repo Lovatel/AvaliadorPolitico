@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AvaliadorPolitico</string>
+    <string name="access">Acesse</string>
+    <string name="app_name2">Projeto \nPolítica \nLimpa</string>
+    <string name="app_name2_no_break">Projeto Política Limpa</string>
+    <string name="access_with_google">Acessar com o Google</string>
+    <string name="enter">Entrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="register">Cadastre-se</string>
+    <string name="register2">Cadastrar</string>
+    <string name="forgot_password">Esqueceu a senha?</string>
+    <string name="forgot_password2">Esqueceu a Senha?</string>
+    <string name="email_or_cpf">Email ou Cpf</string>
+    <string name="next">Avançar</string>
+    <string name="password">Senha:</string>
+    <string name="password_no_dot">Senha</string>
+    <string name="user">Usuário:</string>
+    <string name="user_register">Cadastro de Usuários</string>
+    <string name="name">Nome</string>
+    <string name="last_name">Sobrenome</string>
+    <string name="cpf">Cpf</string>
+    <string name="email">Email</string>
+    <string name="politician_profile">Perfil de Político</string>
+    <string name="change_password">Alterar Senha</string>
+    <string name="old_password">Senha Antiga</string>
+    <string name="new_password">Nova Senha</string>
+    <string name="repeat_password">Repita a Senha</string>
+    <string name="change">Alterar</string>
+    <string name="username">username</string>
+    <string name="alert_dialog_ok">Ok</string>
+    <string name="alert_dialog_title_attention">Atenção</string>
+    <string name="please_inform_username">Por favor, informe o nome do usuário na tela atual.</string>
+    <string name="please_inform_email_or_cpf">Por favor, informe o seu email or cpf antes.</string>
+    <string name="please_inform_email_or_cpf_invalid_message">Email ou Cpf inválido! Por favor, informe novamente o valor e tente novamente.</string>
+</resources>
