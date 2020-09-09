@@ -35,4 +35,19 @@
     <string name="political_ranking">Ranking de Políticos</string>
     <string name="_1">1</string>
     <string name="politician_name">Nome do Político</string>
+    <string name="complete_name">Nome Completo:</string>
+    <string name="birth_date">Data de Nascimento:</string>
+    <string name="birth_city">Município de Nascimento:</string>
+    <string name="gender">Gênero:</string>
+    <string name="civil_state">Estado Civil:</string>
+    <string name="education_level">Grau de Instrução:</string>
+    <string name="profession">Profissão:</string>
+    <string name="current_party">Partido Atual:</string>
+    <string name="political_promises">Promessas Políticas</string>
+    <string name="political_promises_underlined"><u>Promessas Políticas</u></string>
+    <string name="political_profile_underlined"><u>Perfil Político</u></string>
+    <string name="political_profile">Perfil Político</string>
+    <string name="observations">Observações:</string>
+    <string name="jair_bolsonaro">\nJAIR\nBOLSONARO</string>
+    <string name="promise_title">Título de Promessa</string>
 </resources>
