@@ -1,6 +1,183 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lateral_menu_political_profile_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/colorGreenText"
+        android:fontFamily="sans-serif"
+        android:text="@string/political_profile"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lateral_menu_political_ranking_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/colorGreenText"
+        android:fontFamily="sans-serif"
+        android:text="@string/political_ranking"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lateral_menu_feed_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/colorGreenText"
+        android:fontFamily="sans-serif"
+        android:text="@string/feed"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lateral_menu_database_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/colorGreenText"
+        android:fontFamily="sans-serif"
+        android:text="@string/database"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lateral_menu_politician_accompanied_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/colorGreenText"
+        android:fontFamily="sans-serif"
+        android:text="@string/politician_accompanied"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lateral_menu_scheduler_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/colorGreenText"
+        android:fontFamily="sans-serif"
+        android:text="@string/scheduler"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lateral_menu_vote_prediction_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/colorGreenText"
+        android:fontFamily="sans-serif"
+        android:text="@string/vote_prediction"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lateral_menu_create_public_petition_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/colorGreenText"
+        android:fontFamily="sans-serif"
+        android:text="@string/create_public_petition"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lateral_menu_change_register_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/colorGreenText"
+        android:fontFamily="sans-serif"
+        android:text="@string/change_register"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lateral_menu_change_password_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/colorGreenText"
+        android:fontFamily="sans-serif"
+        android:text="@string/change_password"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lateral_menu_leave_profile_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:backgroundTint="@color/colorGreenText"
+        android:fontFamily="sans-serif"
+        android:text="@string/leave_profile"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGreenText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

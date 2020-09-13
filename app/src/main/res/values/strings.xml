@@ -50,4 +50,12 @@
     <string name="observations">Observações:</string>
     <string name="jair_bolsonaro">\nJAIR\nBOLSONARO</string>
     <string name="promise_title">Título de Promessa</string>
+    <string name="feed">Feed de Notícias</string>
+    <string name="database">Base de Dados</string>
+    <string name="politician_accompanied">Políticos Acompanhados</string>
+    <string name="scheduler">Agendador</string>
+    <string name="vote_prediction">Predição de Votos</string>
+    <string name="create_public_petition">Criar Petição Pública</string>
+    <string name="change_register">Alterar Cadastro</string>
+    <string name="leave_profile">Sair do Perfil</string>
 </resources>
